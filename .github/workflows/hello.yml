@@ -2,7 +2,7 @@ name: Hello Workflow
 
 on:
   push:
-    branches: [main]
+    branches: [ main ]
   workflow_dispatch:
 
 jobs:
@@ -15,7 +15,7 @@ jobs:
 
       - name: Say Hello
         run: echo "Hello from GitHub Actions!"
-       
+
       - name: Print Date and Time
         run: date
 
