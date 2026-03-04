@@ -22,3 +22,5 @@ jobs:
       - name: List Files
         run: ls -la
 
+      - name: Break The Pipeline
+        run: exit 1
